@@ -2,19 +2,19 @@ import { createBrowserRouter, Navigate, Outlet, useLocation } from 'react-router
 import { useEffect } from 'react';
 import { ErrorBoundary } from '../components/ErrorBoundary';
 
-import P_login from '../pages/p-login';
-import P_home from '../pages/p-home';
-import P_record from '../pages/p-record';
-import P_analysis from '../pages/p-analysis';
-import P_history from '../pages/p-history';
-import P_recommend from '../pages/p-recommend';
-import P_budget from '../pages/p-budget';
-import P_account from '../pages/p-account';
-import P_settings from '../pages/p-settings';
-import P_transaction_detail from '../pages/p-transaction_detail';
-import P_recommend_detail from '../pages/p-recommend_detail';
-import P_transaction_edit from '../pages/p-transaction_edit';
-import P_consume_record_edit from '../pages/p-consume_record_edit';
+import P_login from '../p-login';
+import P_home from '../p-home';
+import P_record from '../p-record';
+import P_analysis from '../p-analysis';
+import P_history from '../p-history';
+import P_recommend from '../p-recommend';
+import P_budget from '../p-budget';
+import P_account from '../p-account';
+import P_settings from '../p-settings';
+import P_transaction_detail from '../p-transaction_detail';
+import P_recommend_detail from '../p-recommend_detail';
+import P_transaction_edit from '../p-transaction_edit';
+import P_consume_record_edit from '../p-consume_record_edit';
 import NotFoundPage from './NotFoundPage';
 import ErrorPage from './ErrorPage';
 
