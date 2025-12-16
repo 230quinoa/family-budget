@@ -1,0 +1,57 @@
+
+.pageWrapper {
+  background-color: #F9FAFB;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.btnPrimary {
+  background-color: #F1D151;
+  color: #645E44;
+  transition: all 0.3s ease;
+}
+
+.btnPrimary:hover {
+  background-color: #E6C230;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.btnSecondary {
+  background-color: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  color: #645E44;
+  transition: all 0.3s ease;
+}
+
+.btnSecondary:hover {
+  background-color: #F8F1D3;
+  border-color: #F1D151;
+  transform: translateY(-1px);
+}
+
+.btnDanger {
+  background-color: #F44336;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btnDanger:hover {
+  background-color: #D32F2F;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .pageWrapper {
+    padding-bottom: 20px;
+  }
+  
+  main {
+    padding: 20px 16px !important;
+  }
+  
+  .grid-cols-1\ md\:grid-cols-2 {
+    grid-template-columns: 1fr;
+  }
+}

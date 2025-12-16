@@ -1,0 +1,90 @@
+
+
+.pageWrapper {
+  background-color: #F9FAFB;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.sidebarTransition {
+  transition: width 0.3s ease-in-out;
+}
+
+.cardHover:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+.btnPrimary {
+  background-color: #F1D151;
+  color: #645E44;
+  transition: all 0.3s ease;
+}
+
+.btnPrimary:hover {
+  background-color: #E6C230;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.btnSecondary {
+  background-color: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  color: #645E44;
+  transition: all 0.3s ease;
+}
+
+.btnSecondary:hover {
+  background-color: #F8F1D3;
+  border-color: #F1D151;
+  transform: translateY(-1px);
+}
+
+.btnDanger {
+  background-color: #F44336;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btnDanger:hover {
+  background-color: #D32F2F;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.btnIcon {
+  transition: all 0.2s ease;
+}
+
+.btnIcon:hover {
+  transform: scale(1.1);
+}
+
+.navItemActive {
+  background-color: #F8F1D3;
+  border-right: 3px solid #F1D151;
+  color: #645E44;
+}
+
+.navItem:hover {
+  background-color: #F7FAFC;
+  color: #645E44;
+}
+
+.tableRow:hover {
+  background-color: #F7FAFC;
+}
+
+.sortButton:hover {
+  background-color: #F8F1D3;
+  color: #645E44;
+}
+
+.filterDropdown {
+  display: none;
+}
+
+.filterDropdown.show {
+  display: block;
+}
+

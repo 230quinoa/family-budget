@@ -1,0 +1,59 @@
+
+
+.pageWrapper {
+  background-color: #F9FAFB;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.sidebarTransition {
+  transition: width 0.3s ease-in-out;
+}
+
+.cardHover:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+.navItemActive {
+  background-color: #F8F1D3;
+  border-right: 3px solid #F1D151;
+  color: #645E44;
+}
+
+.navItem:hover {
+  background-color: #F7FAFC;
+  color: #645E44;
+}
+
+.modalBackdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalEnter {
+  animation: modalEnter 0.3s ease-out;
+}
+
+@keyframes modalEnter {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.tableRow:hover {
+  background-color: #F7FAFC;
+}
+
+.sortButton:hover {
+  color: #F1D151;
+}
+
+.sortActive {
+  color: #F1D151;
+}
+

@@ -1,0 +1,84 @@
+
+
+.pageWrapper {
+  background-color: #F9FAFB;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formInputFocus:focus {
+  outline: none;
+  border-color: #F1D151;
+  box-shadow: 0 0 0 2px rgba(241, 209, 81, 0.2);
+}
+
+.btnPrimary {
+  background-color: #F1D151;
+  color: #645E44;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btnPrimary:hover {
+  background-color: #E5C130;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(241, 209, 81, 0.3);
+}
+
+.btnSecondary {
+  background-color: transparent;
+  color: #645E44;
+  border: 1px solid #F1D151;
+  transition: all 0.3s ease;
+}
+
+.btnSecondary:hover {
+  background-color: #F8F1D3;
+  transform: translateY(-1px);
+}
+
+.tabActive {
+  background-color: #F1D151;
+  color: #645E44;
+}
+
+.tabInactive {
+  background-color: transparent;
+  color: #718096;
+}
+
+.tabInactive:hover {
+  background-color: #F7FAFC;
+  color: #645E44;
+}
+
+.fadeIn {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { 
+    opacity: 0; 
+    transform: translateY(10px); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+
+.errorMessage {
+  color: #E53E3E;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.successMessage {
+  color: #38A169;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
