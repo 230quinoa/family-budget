@@ -1,0 +1,29 @@
+
+
+/* 页面包装器样式 - 来自body标签 */
+.pageWrapper {
+  background-color: #F9FAFB; /* bg-gray-50 */
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif; /* font-sans */
+}
+
+/* 表单输入框焦点样式 */
+.formInput:focus {
+  outline: none;
+  border-color: #F1D151;
+  box-shadow: 0 0 0 3px rgba(241, 209, 81, 0.1);
+}
+
+/* 分类项样式 */
+.categoryItem {
+  transition: all 0.2s ease;
+}
+
+.categoryItem:hover {
+  transform: translateY(-2px);
+}
+
+.categoryItem.selected {
+  border-color: #F1D151;
+  background-color: rgba(241, 209, 81, 0.1);
+}
+

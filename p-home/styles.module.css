@@ -1,0 +1,69 @@
+
+
+.pageWrapper {
+  background-color: #F9FAFB;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.sidebarTransition {
+  transition: width 0.3s ease-in-out;
+}
+
+.cardHover:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+.progressBar {
+  background: linear-gradient(90deg, #F1D151 0%, #F8F1D3 100%);
+}
+
+.navItemActive {
+  background-color: #F8F1D3;
+  border-right: 3px solid #F1D151;
+  color: #645E44;
+}
+
+.navItem:hover {
+  background-color: #F7FAFC;
+  color: #645E44;
+}
+
+/* 抽屉样式 */
+.drawerOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.drawerOverlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 450px;
+  background-color: white;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1001;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  overflow-y: auto;
+}
+
+.drawer.active {
+  transform: translateX(0);
+}
+

@@ -1,0 +1,101 @@
+
+
+.pageWrapper {
+  background-color: #f9fafb;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.sidebarTransition {
+  transition: width 0.3s ease-in-out;
+}
+
+.cardHover:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+.navItemActive {
+  background-color: #F8F1D3;
+  border-right: 3px solid #F1D151;
+  color: #645E44;
+}
+
+.navItem:hover {
+  background-color: #F7FAFC;
+  color: #645E44;
+}
+
+.chartContainer {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+
+.categoryItem {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.categoryItem:hover {
+  background-color: #F7FAFC;
+}
+
+.categoryItemActive {
+  background-color: #F8F1D3;
+  border-left: 3px solid #F1D151;
+}
+
+.expenseListItem {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.expenseListItem:hover {
+  background-color: #F7FAFC;
+}
+
+.timeSelectorBtn {
+  transition: all 0.2s ease;
+}
+
+.timeSelectorBtnActive {
+  background-color: #F1D151;
+  color: white;
+}
+
+.timeSelectorBtn:not(.timeSelectorBtnActive):hover {
+  background-color: #F7FAFC;
+}
+
+.typingIndicator {
+  display: flex;
+  align-items: flex-start;
+}
+
+.typingDot {
+  width: 8px;
+  height: 8px;
+  background-color: #60a5fa;
+  border-radius: 50%;
+  margin-right: 4px;
+  animation: bounce 1.4s infinite ease-in-out both;
+}
+
+.typingDot:nth-child(1) {
+  animation-delay: -0.32s;
+}
+
+.typingDot:nth-child(2) {
+  animation-delay: -0.16s;
+}
+
+@keyframes bounce {
+  0%, 80%, 100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
+

@@ -1,0 +1,55 @@
+
+
+.pageWrapper {
+  background-color: #F9FAFB;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.drawerOverlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+}
+
+.drawerEnter {
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.drawerEnterActive {
+  transform: translateX(0);
+}
+
+.drawerExit {
+  transform: translateX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.drawerExitActive {
+  transform: translateX(100%);
+}
+
+.favoriteButton {
+  transition: all 0.3s ease;
+  background-color: #F7FAFC;
+  color: #718096;
+}
+
+.favoriteButton:hover {
+  transform: scale(1.05);
+}
+
+.favoriteButton.active {
+  background-color: #F1D151;
+  color: white;
+}
+
+.linkButton {
+  background: linear-gradient(135deg, #F1D151 0%, #F8F1D3 100%);
+  transition: all 0.3s ease;
+}
+
+.linkButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(241, 209, 81, 0.3);
+}
+
